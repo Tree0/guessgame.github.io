@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Number Guessing Game</h1>
+    <p>Try and Guess a random number between 1 and 50.</p>
+    <div class="flex-container">
+      <div id="guessNumber">
+        <form class="form">
+          <label for="guess" id="num">Guess a Number</label><br>
+          <input type="number" class="guess" id="inNum"><br>
+          <button  type="button" name="button" id="btn">Submit Number</button>
+
+        </form>
+        <div class="resultParas">
+            <p >Previous Guesses: <span class="preGuess"></span></p>
+            <p >Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  <script src="script.js">
+
+  </script>
+  </body>
+</html>
